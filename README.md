@@ -4,7 +4,7 @@ This repository implements the Universal Chess Interface protocol (and hopefully
 
 The aim of this is to allow easy modular access to the protocol by adding your own bot in the bots folder with all the intricacies taken care of.
 
-All bots inherit from the UCIBot class which implements the protocol and handles the communication with the game.
+All bots inherit from the UCIBot class found in bot_shell.py which implements the protocol and handles the communication with the game.
 
 ## Installation
 
@@ -25,7 +25,6 @@ The bots should run as an executable within the relevant directory. Your system 
 
 ```
 ./main.py <botname>
-
 ```
 
 The botname is the (case-sensitive) name of the class which is in the bot's file.
